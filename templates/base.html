@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Jose's Build-a-blog</title>
+    <style>
+        .error {
+            color: red; font-style: italic;
+              font-display: block;
+      }
+    </style>
+  </head>
+  <body>
+
+    <div>
+      <a href="/blog">Main Blog Page</a>
+      <a href="/newpost">Add a New Blog Post</a>
+    </div>
+    {% block content %} {% endblock %}
+
+  </body>
+
+</html>
